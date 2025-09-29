@@ -141,7 +141,7 @@ public class HealthKiosk {
 						System.out.println("TRIAGE | ID=" + randomId +" | BMI=" + metric + " | Code=" + displayCode);
 						break;
 					case 2:
-						System.out.println("TRIAGE | ID=" + randomId +" | DOSAGE=" + metric + " | Code=" + displayCode);
+						System.out.println("TRIAGE | ID=" + randomId +" | DOSAGE=" + refinedMetric + " | Code=" + displayCode); // refinedMetric here because metric is saved as a double
 						break;
 					case 3:
 						System.out.println("TRIAGE | ID=" + randomId +" | HELPER=" + metric + " | Code=" + displayCode);
